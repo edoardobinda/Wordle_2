@@ -1,0 +1,51 @@
+.title, .description{
+    text-align: center;
+}
+.sectiondisplay{
+    border: solid 1px black;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+}
+#divdisplay1, #divdisplay2, #divdisplay3, #divdisplay4, #divdisplay5{
+    margin: 0 auto;
+    border: solid 1px black;
+    padding: 15px;
+}
+.sectioninputs{
+    border: solid 1px blue;
+    display: block;
+    flex-direction: row;
+    margin-top: 100px;
+}
+.sectioninputQP, .sectioninputAL, .sectioninputZM{
+    border: solid 1px black;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+}
+#divinput1, #divinput2, #divinput3, #divinput4, #divinput5, #divinput6, #divinput7, #divinput8, #divinput9, #divinput10,
+#divinput11, #divinput12, #divinput13, #divinput14, #divinput15, #divinput16, #divinput17, #divinput18, #divinput19,
+#divinput20, #divinput21, #divinput22, #divinput23, #divinput24, #divinput25, #divinput26 {
+    margin: 0 auto;
+    border: solid 1px black;
+    padding: 15px;
+}
+
+.correctLetter{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    background-color: green;
+}
+.maybeLetter{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    background-color: rgb(240, 224, 0)
+}
+.wrongLetter{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    background-color:rgb(136, 136, 136);
+}

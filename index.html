@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" async src="./app.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Wordle</title>
+</head>
+<body>
+    <h1 class="title">Wordle Game</h1>
+    <h2 class="description">This is the description</h2>
+    <section class="sectiondisplay"> <!-- When we push letters here we could hide/un-hide the section from CSS, and in JS once letters are pushed we addclass them with hide/unhide  -->
+        <div id="divdisplay1"></div>
+        <div id="divdisplay2"></div>
+        <div id="divdisplay3"></div>
+        <div id="divdisplay4"></div>
+        <div id="divdisplay5"></div>
+    </section>
+    <section class="sectioninputs">
+        <section class="sectioninputQP">
+            <div id="divinput1">Q</div>
+            <div id="divinput2">W</div>
+            <div id="divinput3">E</div>
+            <div id="divinput4">R</div>
+            <div id="divinput5">T</div>
+            <div id="divinput6">Y</div>
+            <div id="divinput7">U</div>
+            <div id="divinput8">I</div>
+            <div id="divinput9">O</div>
+            <div id="divinput10">P</div>
+        </section>
+        <section class="sectioninputAL">
+            <div id="divinput11">A</div>
+            <div id="divinput12">S</div>
+            <div id="divinput13">D</div>
+            <div id="divinput14">F</div>
+            <div id="divinput15">G</div>
+            <div id="divinput16">H</div>
+            <div id="divinput17">J</div>
+            <div id="divinput18">K</div>
+            <div id="divinput19">L</div>
+        </section>
+        <section class="sectioninputZM">
+            <div id="divinput20">Z</div>
+            <div id="divinput21">X</div>
+            <div id="divinput22">C</div>
+            <div id="divinput23">V</div>
+            <div id="divinput24">B</div>
+            <div id="divinput25">N</div>
+            <div id="divinput26">M</div>
+        </section>
+    </section>
+    <section class="buttons">
+        <button onclick="submit()">Submit</button>
+        <button onclick="cancel()">Cancel</button>
+    </section>
+</body>
+</html>
